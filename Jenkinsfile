@@ -6,6 +6,7 @@ pipeline {
             steps {
                 // Add build steps here
                 echo "Building World!"
+                echo "Successfully Built" 
             }
         }
         stage('Test') {
